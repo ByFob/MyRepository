@@ -12,10 +12,3 @@
         <div class="tab_item">Содержимое 3</div>
     </div>
 </div>
-
-
-
-$(".wrapper .tab").click(function() {
-	$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
-	$(".tab_item").hide().eq($(this).index()).fadeIn()
-}).eq(0).addClass("active");
